@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+
+    list-style-type: none;
+}
+
+
+.div-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.div-logo .izquierda {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.div-logo h1 {
+    color: rgb(39, 182, 11);
+    font-size: 50px;
+    margin: 0;
+}
+
+.menu-derecha {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-derecha li a {
+    color: rgb(60, 173, 7);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* ----------------------------------------------------------------- */
+
+
+.fuenteneg{
+            display: flex;
+            justify-content:space-between;
+           
+            
+ 
+}
+
+.fuenteneg li a {
+      color:rgb(131, 226, 43);
+       font-size: 25px ;
+}
+
+
+
+body{
+    background-image: url('../img/mother.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.grid-ej{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 20px;
+    color: white;
+}
+.tarj{
+    background-color: rgb(4, 32, 192);
+    padding: 20px;
+    border-radius: 2px;
+    text-align: center;
+
+}
+
+.tarj button{
+        padding: 20px 30px;
+        font-size: 30px;
+        color: blue;
+}

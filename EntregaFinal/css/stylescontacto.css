@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+
+    list-style-type: none;
+}
+
+.fuenteneg {
+
+    font-size: 25px;
+
+    a {
+        color: white;
+        background-color: black;
+     
+    }
+}
+
+nav {
+    /* text-align: center; */
+    width: fit-content;
+    height: fit-content;
+
+    border: 5px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #249283;
+    border-radius: 5px;
+ 
+    
+
+}
+
+
+
+
+
+div {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 100px;
+    margin: 10px auto;
+    padding: 10px;
+
+
+}
+
+   button {
+    
+    
+    background-color: rgb(138, 11, 138);
+    
+
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    max-width: 100px;
+    margin: 10px auto;
+    padding: 30px 50px;
+    color: white;
+ 
+}
+    
+    
+
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+}
+
+/* main {
+    display: flex;
+
+    flex-direction: column;
+} */
+
+.msj{
+ max-width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    
+
+}
+
+body{
+    background-image: url('../img/mother.jpg');
+background-repeat: no-repeat;
+    background-size: cover;
+
+}
