@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         if (valid) {
-            alert("Login exitoso (ejemplo)");
+            alert("Usuario logueado..... BIENVENIDO!!!!");
             form.reset();
         }
     });

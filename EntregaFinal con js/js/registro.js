@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         if (valid) {
-            alert("Registro exitoso (ejemplo)");
+            alert("Usuario Registrado");
             form.reset();
         }
     });
