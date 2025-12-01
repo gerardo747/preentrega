@@ -1,0 +1,236 @@
+/* ------------------------------------------------------ */
+/* Reset y estilos globales */
+/* ------------------------------------------------------ */
+
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    background-color: black;
+}
+
+.p-foot,
+.preg {
+    color: rgb(39, 182, 11);
+}
+
+
+/* ------------------------------------------------------ */
+/* Encabezado / Logo */
+/* ------------------------------------------------------ */
+
+.div-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-image: url('../img/mother.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-logo .izquierda {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.div-logop {
+    color: rgb(39, 182, 11);
+    font-size: 20px;
+    margin: 0;
+}
+
+.menu-derecha {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-derecha li a {
+    color: rgb(60, 173, 7);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* ------------------------------------------------------ */
+/* Navegación secundaria */
+/* ------------------------------------------------------ */
+
+.fuenteneg {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../img/mother.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fuenteneg li a {
+    color: rgb(131, 226, 43);
+    font-size: 25px;
+}
+
+.fuenteneg1 {
+    font-size: 25px;
+}
+
+.fuenteneg1 a {
+    color: white;
+    background-color: black;
+}
+
+
+/* ------------------------------------------------------ */
+/* Formularios generales */
+/* ------------------------------------------------------ */
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #249283;
+    border-radius: 5px;
+}
+
+.msj {
+    max-width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    height: 95px;
+    width: 800px;
+}
+
+.div-con {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 100px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.button-con {
+    background-color: rgb(138, 11, 138);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    max-width: 100px;
+    margin: 10px auto;
+    padding: 30px 50px;
+}
+
+
+/* ------------------------------------------------------ */
+/* Formulario de registro */
+/* ------------------------------------------------------ */
+
+.form-container {
+    width: 380px;
+    margin: 50px auto;
+    background: rgb(234, 235, 243);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: rgb(39, 182, 11);
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(39, 182, 11);
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgba(170, 156, 126, 0.976);
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.input-group input:focus {
+    border-color: rgb(83, 81, 81);
+    outline: none;
+}
+
+.error-msg {
+    color: rgb(235, 12, 12);
+    font-size: .9rem;
+    margin-top: 4px;
+    display: block;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(175, 16, 175);
+    color: rgb(39, 182, 11);
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: rgba(8, 10, 1, 0.911);
+}
+
+
+/* ------------------------------------------------------ */
+/* Contenedores / navegación */
+/* ------------------------------------------------------ */
+
+.nav-con {
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ------------------------------------------------------ */
+/* Tarjetas / Grid */
+/* ------------------------------------------------------ */
+
+.grid-ej {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 20px;
+    color: white;
+}
+
+.tarj {
+    background-color: rgb(4, 32, 192);
+    padding: 20px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.tarj button {
+    padding: 20px 30px;
+    font-size: 30px;
+    color: blue;
+}
